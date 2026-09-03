@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">AI agent engineering illustration</title>
+  <desc id="desc">A futuristic AI agent working with content, APIs, workflows and performance dashboards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080f22"/><stop offset="1" stop-color="#11152e"/></linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00d9ff"/><stop offset="1" stop-color="#8a5cff"/></linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#142d6b"/><stop offset="1" stop-color="#241553"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="620" rx="28" fill="url(#bg)"/>
+  <g opacity=".16" stroke="#78a7ff" stroke-width="1"><path d="M0 100H900M0 200H900M0 300H900M0 400H900M0 500H900"/><path d="M100 0V620M200 0V620M300 0V620M400 0V620M500 0V620M600 0V620M700 0V620M800 0V620"/></g>
+  <g fill="none" stroke="#12cfff" stroke-width="3" opacity=".65"><path d="M160 160C240 160 245 105 325 105"/><path d="M575 115C670 115 670 165 735 165"/><path d="M160 430C255 430 250 500 340 500"/><path d="M570 455C660 455 665 405 750 405"/></g>
+  <g filter="url(#shadow)">
+    <rect x="55" y="70" width="260" height="145" rx="18" fill="#0c1835" stroke="#13cfff" stroke-opacity=".7"/>
+    <text x="78" y="103" fill="#fff" font-family="Inter,Arial" font-size="18" font-weight="700">CONTENT PLATFORM</text>
+    <rect x="78" y="122" width="210" height="12" rx="6" fill="#214c91"/><rect x="78" y="148" width="160" height="12" rx="6" fill="#17386f"/><rect x="78" y="174" width="185" height="12" rx="6" fill="#17386f"/>
+    <rect x="585" y="55" width="260" height="125" rx="18" fill="#0c1835" stroke="#795cff" stroke-opacity=".8"/>
+    <text x="610" y="88" fill="#fff" font-family="Inter,Arial" font-size="18" font-weight="700">AI AGENT</text>
+    <text x="610" y="119" fill="#8eefff" font-family="monospace" font-size="14">plan → analyze → execute</text><text x="610" y="146" fill="#a99aff" font-family="monospace" font-size="14">✓ optimize  ✓ test  ✓ ship</text>
+    <rect x="50" y="365" width="250" height="130" rx="18" fill="#0c1835" stroke="#795cff" stroke-opacity=".75"/>
+    <text x="75" y="399" fill="#fff" font-family="Inter,Arial" font-size="17" font-weight="700">WORKFLOWS</text><circle cx="85" cy="430" r="8" fill="#14d8ff"/><text x="105" y="436" fill="#b8c5df" font-family="Inter,Arial" font-size="14">Content → API</text><circle cx="85" cy="462" r="8" fill="#8a5cff"/><text x="105" y="468" fill="#b8c5df" font-family="Inter,Arial" font-size="14">Build → Deploy</text>
+    <rect x="615" y="365" width="235" height="145" rx="18" fill="#0c1835" stroke="#13cfff" stroke-opacity=".65"/>
+    <text x="640" y="399" fill="#fff" font-family="Inter,Arial" font-size="17" font-weight="700">PERFORMANCE</text><path d="M645 470L685 450L720 458L760 420L810 435" fill="none" stroke="#12cfff" stroke-width="5"/><circle cx="810" cy="435" r="6" fill="#8a5cff"/>
+  </g>
+  <g transform="translate(345 165)" filter="url(#shadow)">
+    <ellipse cx="105" cy="360" rx="145" ry="32" fill="#07102a" stroke="#1552a0"/>
+    <rect x="25" y="120" width="160" height="205" rx="75" fill="#dfeaff" stroke="url(#glow)" stroke-width="5"/>
+    <rect x="48" y="145" width="114" height="88" rx="30" fill="#071333" stroke="#28d9ff" stroke-width="3"/>
+    <path d="M78 188q15-18 30 0M118 188q15-18 30 0" fill="none" stroke="#20ddff" stroke-width="7" stroke-linecap="round"/><path d="M88 207q25 18 50 0" fill="none" stroke="#8a5cff" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="38" cy="205" r="18" fill="#dfeaff" stroke="#18d7ff" stroke-width="4"/><circle cx="177" cy="205" r="18" fill="#dfeaff" stroke="#18d7ff" stroke-width="4"/>
+    <path d="M25 260L-35 315" stroke="#dfeaff" stroke-width="28" stroke-linecap="round"/><path d="M185 260L250 305" stroke="#dfeaff" stroke-width="28" stroke-linecap="round"/>
+    <path d="M-35 315L-58 292" stroke="#18d7ff" stroke-width="18" stroke-linecap="round"/><path d="M250 305L273 283" stroke="#18d7ff" stroke-width="18" stroke-linecap="round"/>
+    <rect x="-8" y="270" width="225" height="110" rx="12" fill="url(#screen)" stroke="#22d8ff" stroke-width="3" transform="rotate(-4 105 325)"/>
+    <path d="M20 350L65 315L95 332L135 292L185 315" fill="none" stroke="#18d7ff" stroke-width="5" transform="rotate(-4 105 325)"/><rect x="32" y="285" width="70" height="8" rx="4" fill="#8a5cff" transform="rotate(-4 105 325)"/>
+  </g>
+  <text x="40" y="575" fill="#7282a4" font-family="monospace" font-size="13">AI-ASSISTED ENGINEERING · CONTENT · APIs · AUTOMATION · PERFORMANCE</text>
+</svg>
