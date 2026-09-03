@@ -1,26 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 96" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 72" role="img" aria-labelledby="title desc">
   <title id="title">Rishiraj Upadhyay</title>
-  <desc id="desc">Rishiraj Upadhyay — Software Engineer, Technical Lead and AI</desc>
+  <desc id="desc">Rishiraj Upadhyay — Software Engineer and Technical Lead</desc>
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#20d8ff"/>
       <stop offset="1" stop-color="#2458ff"/>
     </linearGradient>
   </defs>
-  <g transform="translate(4 8)">
-    <rect x="0" y="0" width="80" height="80" rx="18" fill="#0d1422" stroke="#24314a"/>
-    <path d="M18 58V22h25c12 0 20 6 20 16 0 7-4 12-10 15l13 13H49L37 55H30v3H18Zm12-25v11h11c6 0 9-2 9-6s-3-5-9-5H30Z" fill="#f4f6fb"/>
-    <path d="M42 22h17v25c0 9-4 14-11 14-5 0-9-2-12-6l-8-10h15l4 4c1 1 2 1 2-2V22Z" fill="url(#g)"/>
-  </g>
-  <path d="M100 15v66" stroke="#20d8ff" stroke-width="2" opacity=".8"/>
-  <g transform="translate(122 17)" font-family="Inter,Arial,sans-serif">
-    <text x="0" y="27" font-size="25" font-weight="800" letter-spacing="1.2" fill="#f4f6fb">RISHIRAJ</text>
-    <text x="143" y="27" font-size="25" font-weight="800" letter-spacing="1.2" fill="#20bfff">UPADHYAY</text>
-    <text x="0" y="52" font-size="10.5" font-weight="600" letter-spacing="2.1" fill="#aeb7c8">SOFTWARE ENGINEER</text>
-    <text x="158" y="52" font-size="10.5" font-weight="600" letter-spacing="2.1" fill="#20d8ff">|</text>
-    <text x="171" y="52" font-size="10.5" font-weight="600" letter-spacing="2.1" fill="#aeb7c8">TECHNICAL LEAD</text>
-    <text x="328" y="52" font-size="10.5" font-weight="600" letter-spacing="2.1" fill="#20d8ff">|</text>
-    <text x="342" y="52" font-size="10.5" font-weight="600" letter-spacing="2.1" fill="#aeb7c8">AI</text>
-    <path d="M0 69h44" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
+  <rect x="2" y="2" width="68" height="68" rx="16" fill="#0d1422" stroke="#24314a"/>
+  <path d="M17 53V19h24c11 0 18 5 18 14 0 6-3 11-9 14l12 12H45L34 50h-6v3H17Zm11-23v10h10c6 0 9-2 9-5 0-4-3-5-9-5H28Z" fill="#f4f6fb"/>
+  <path d="M39 19h16v23c0 8-4 13-10 13-5 0-8-2-11-6l-7-9h14l4 4c1 1 2 0 2-2V19Z" fill="url(#blue)"/>
+  <path d="M88 13v46" stroke="#20d8ff" stroke-width="2" opacity=".8"/>
+  <g transform="translate(105 13)" font-family="Inter,Arial,sans-serif">
+    <text x="0" y="25" font-size="22" font-weight="800" letter-spacing="1" fill="#f4f6fb">RISHIRAJ</text>
+    <text x="139" y="25" font-size="22" font-weight="800" letter-spacing="1" fill="#20c5ff">UPADHYAY</text>
+    <text x="0" y="48" font-size="9.5" font-weight="600" letter-spacing="1.8" fill="#aeb7c8">SOFTWARE ENGINEER</text>
+    <text x="151" y="48" font-size="9.5" font-weight="600" fill="#20d8ff">·</text>
+    <text x="164" y="48" font-size="9.5" font-weight="600" letter-spacing="1.8" fill="#aeb7c8">TECHNICAL LEAD</text>
+    <text x="0" y="64" font-size="7.5" font-weight="600" letter-spacing="1.5" fill="#68778d">BUILD · DESIGN · LEAD · INNOVATE</text>
   </g>
 </svg>
