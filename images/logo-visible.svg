@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="995" height="350" viewBox="0 0 995 350">
+  <title>Rishiraj Upadhyay Site Logo</title>
+  <defs>
+    <clipPath id="textAreas">
+      <rect x="455" y="80" width="525" height="115"/>
+      <rect x="455" y="260" width="525" height="48"/>
+    </clipPath>
+    <filter id="lightenDarkText" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0.2126 0.7152 0.0722 0 0  0.2126 0.7152 0.0722 0 0  0.2126 0.7152 0.0722 0 0  0 0 0 1 0" result="luma"/>
+      <feColorMatrix in="luma" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  -0.2126 -0.7152 -0.0722 0 1" result="darkMask"/>
+      <feComponentTransfer in="darkMask" result="thresholdMask">
+        <feFuncA type="discrete" tableValues="1 0"/>
+      </feComponentTransfer>
+      <feComposite in="thresholdMask" in2="SourceGraphic" operator="in" result="masked"/>
+      <feFlood flood-color="#ffffff" result="white"/>
+      <feComposite in="white" in2="masked" operator="in" result="whiteText"/>
+      <feComposite in="whiteText" in2="SourceGraphic" operator="over"/>
+    </filter>
+  </defs>
+  <image x="0" y="0" width="995" height="350" preserveAspectRatio="xMidYMid meet" href="logo.svg"/>
+  <g clip-path="url(#textAreas)" filter="url(#lightenDarkText)">
+    <image x="0" y="0" width="995" height="350" preserveAspectRatio="xMidYMid meet" href="logo.svg"/>
+  </g>
+</svg>
