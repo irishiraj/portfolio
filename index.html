@@ -1,321 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- meta -->
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Rishiraj - Personal Portfolio</title>
-  <meta content="" name="keywords">
-  <meta content="" name="description">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
-
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-  <link href="lib/hover/hover.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rishiraj Upadhyay | Senior Software Engineer II</title>
+  <meta name="description" content="Rishiraj Upadhyay — Senior Software Engineer II, Technical Lead and Frontend & Full-Stack Engineer with 11+ years of experience building fast, scalable web experiences.">
+  <meta name="keywords" content="Rishiraj Upadhyay, Senior Software Engineer, Technical Lead, Frontend Engineer, Full Stack Engineer, React, Next.js, Gatsby.js, Node.js">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="apple-touch-icon" href="images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-
-  <!-- Responsive css -->
-  <link href="css/responsive.css" rel="stylesheet">
-
-  <!-- Favicon -->
-  <!-- <link rel="shortcut icon" href="images/favicon.png"> -->
 </head>
-
 <body>
+  <div class="scroll-progress" id="scroll-progress"></div>
 
-  <!-- start section navbar -->
-  <nav id="main-nav">
-    <div class="row">
-      <div class="container">
-
-        <div class="logo">
-          <a href="index.html"><img src="images/rishi-logo.png" alt="logo"></a>
-        </div>
-
-        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
-
-        <ul class="nav-menu list-unstyled">
-          <li><a href="#header" class="smoothScroll">Home</a></li>
-          <li><a href="#about" class="smoothScroll">About</a></li>
-          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
-          <li><a href="#contact" class="smoothScroll">Contact</a></li>
-        </ul>
-
-      </div>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Rishiraj Upadhyay home"><img src="images/rishi-logo.png" alt="Rishiraj Upadhyay"></a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+      <nav class="nav" id="site-nav">
+        <a href="#about">About</a><a href="#expertise">Expertise</a><a href="#work">Selected Work</a><a href="#experience">Experience</a><a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+      </nav>
     </div>
-  </nav>
-  <!-- End section navbar -->
+  </header>
 
-
-  <!-- start section header -->
-  <div id="header" class="home">
-
-    <div class="container">
-      <div class="header-content">
-        <h1>I'm <span class="typed"></span></h1>
-        <p>Web Developer</p>
-
-        <ul class="list-unstyled list-social">
-          <li><a href="https://www.facebook.com/rishiraj.upadhyay.5"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="https://twitter.com/rishiraj88"><i class="ion-social-twitter"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/irishiraj/"><i class="ion-social-linkedin"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- End section header -->
-
-
-  <!-- start section about us -->
-  <div id="about" class="paddsection">
-    <div class="container">
-      <div class="row justify-content-between">
-
-        <div class="col-lg-4 ">
-          <div class="div-img-bg">
-            <div class="about-img">
-              <img src="images/6.jpg" class="img-responsive" alt="me">
-            </div>
-          </div>
+  <main>
+    <section class="hero section-grid" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> Available for senior engineering opportunities</div>
+          <p class="hero-kicker">Senior Software Engineer II <span>·</span> Technical Lead</p>
+          <h1>Engineering modern web experiences that are <em>fast, scalable</em> &amp; production-ready.</h1>
+          <p class="hero-summary">11+ years building developer platforms, documentation experiences and high-performance digital products — from technical strategy and implementation to production releases and continuous improvement.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#work">View selected work <span>↗</span></a><a class="button button-ghost" href="#contact">Get in touch</a></div>
+          <div class="hero-meta"><span>Based in Mumbai, India</span><span>Frontend · Full-Stack · Web Platform</span></div>
         </div>
-
-        <div class="col-lg-7">
-          <div class="about-descr">
-
-            <p class="p-heading">Innovative Front End Developer with 6 years of experience building and maintaining responsive websites in the product based company. Proficient in HTML, CSS,
-Javascript, Jquery, Wordpress, Google Analytics, Google Tag Manager plus modern libraries and frameworks (SASS, LESS, Bootstrap). A desire to be the best, to never be anything less than excellent, not just because you
-love competition but because you love your work.</p>
-            <p class="separator"></p>
+        <div class="hero-visual">
+          <div class="terminal-window">
+            <div class="terminal-bar"><span></span><span></span><span></span><label>rishiraj.engineer</label></div>
+            <div class="terminal-body"><p><b>01</b> <span class="muted">const</span> engineer = {</p><p><b>02</b>&nbsp;&nbsp; focus: <span>"scalable web"</span>,</p><p><b>03</b>&nbsp;&nbsp; frontend: <span>["React", "Next", "Gatsby"]</span>,</p><p><b>04</b>&nbsp;&nbsp; backend: <span>["Node.js", "REST APIs"]</span>,</p><p><b>05</b>&nbsp;&nbsp; quality: <span>["SEO", "a11y", "performance"]</span>,</p><p><b>06</b>&nbsp;&nbsp; ai: <span>["Claude", "ChatGPT"]</span>,</p><p><b>07</b>&nbsp;&nbsp; ownership: <span>"end-to-end"</span></p><p><b>08</b> };</p><p class="cursor-line"><b>09</b> <span class="muted">engineer</span>.ship(); <i></i></p></div>
           </div>
+          <div class="floating-card card-top"><strong>11+</strong><span>Years engineering</span></div>
+          <div class="floating-card card-bottom"><strong>~90/100</strong><span>Performance score</span></div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- end section about us -->
+    </section>
 
+    <section class="intro section-grid" id="about"><div class="container two-col"><div class="section-label">01 / About</div><div class="section-content"><h2>Hands-on engineering with <span>technical ownership.</span></h2><p>I build and improve web experiences where engineering quality, developer experience and business outcomes meet. My work spans architecture, UI engineering, performance, SEO, accessibility, CI/CD, production readiness and release management.</p><p>As a Technical Lead / Team Lead, I drive solution planning, technical design, code reviews, root-cause analysis, cross-functional execution and mentoring — while staying close to the code.</p><div class="stat-row"><div><strong>~30%</strong><span>site traffic growth on Project Polaris</span></div><div><strong>11+</strong><span>years across web engineering</span></div><div><strong>End-to-end</strong><span>technical ownership</span></div></div></div></div></section>
 
-  <!-- start section services -->
-  <div id="services">
-    <div class="container">
+    <section class="expertise section-grid" id="expertise"><div class="container"><div class="section-heading"><div class="section-label">02 / Expertise</div><h2>What I bring to the <span>engineering table.</span></h2></div><div class="expertise-grid"><article><div class="icon">01</div><h3>Technical Leadership</h3><p>Solution planning, technical design, code review, stakeholder alignment, mentoring and engineering execution.</p></article><article><div class="icon">02</div><h3>Frontend &amp; Full-Stack</h3><p>JavaScript, React.js, Next.js, Gatsby.js, Node.js, REST APIs, HTML5 and CSS3.</p></article><article><div class="icon">03</div><h3>Web Performance</h3><p>Fast page loads, Core Web Vitals, SEO, accessibility, responsive UI and browser compatibility.</p></article><article><div class="icon">04</div><h3>Engineering &amp; DevOps</h3><p>Git, CI/CD, production deployments, release processes, debugging, refactoring and testing.</p></article><article><div class="icon">05</div><h3>AI-Assisted Engineering</h3><p>Claude and ChatGPT for codebase analysis, debugging, refactoring, test generation, research and automation.</p></article><article><div class="icon">06</div><h3>Developer Experience</h3><p>Documentation platforms and API experiences designed for discoverability, usability and developer productivity.</p></article></div></div></section>
 
-        <div class="services-carousel owl-theme">
+    <section class="work section-grid" id="work"><div class="container"><div class="section-heading split"><div><div class="section-label">03 / Selected Work</div><h2>Problems solved, <span>systems improved.</span></h2></div><p>Selected initiatives from my recent engineering work, combining hands-on implementation with technical ownership.</p></div><div class="project-list"><article class="project featured"><div class="project-copy"><span class="project-no">01</span><h3>Project Polaris</h3><p>End-to-end technical ownership of a modern web experience, including performance optimization, frontend bottleneck analysis, theme support and production delivery.</p><div class="tags"><span>React / Next.js</span><span>Performance</span><span>Technical Ownership</span><span>AI-assisted engineering</span></div><div class="project-result"><strong>~30%</strong><span>growth in site traffic</span><strong>~90/100</strong><span>performance score</span></div></div><div class="project-media"><img src="images/portfolio/1.jpg" alt="Project Polaris visual"></div></article><article class="project"><div class="project-copy"><span class="project-no">02</span><h3>Contentstack Docs &amp; API Docs</h3><p>Technical ownership across development, optimization, troubleshooting, releases and continuous improvements for documentation experiences.</p><div class="tags"><span>Gatsby.js</span><span>Next.js</span><span>SEO</span><span>Developer Experience</span></div></div><div class="project-media"><img src="images/portfolio/2.jpg" alt="Documentation project visual"></div></article><article class="project"><div class="project-copy"><span class="project-no">03</span><h3>AI-Assisted Engineering</h3><p>Applied Claude and ChatGPT across analysis, debugging, refactoring, testing, technical research, documentation and workflow automation — with security, correctness and production readiness in focus.</p><div class="tags"><span>Claude</span><span>ChatGPT</span><span>Code Analysis</span><span>Automation</span></div></div><div class="project-media"><img src="images/portfolio/3.jpg" alt="AI-assisted engineering visual"></div></article></div></div></section>
 
-          <div class="services-block">
+    <section class="experience section-grid" id="experience"><div class="container two-col"><div class="section-label">04 / Experience</div><div class="section-content"><h2>11+ years of <span>shipping on the web.</span></h2><div class="timeline"><div class="timeline-item current"><div class="time">Sep 2015 — Aug 2026</div><div><h3>Contentstack</h3><p class="role">Senior Software Engineer II · Technical Lead / Team Lead</p><p>Owned end-to-end technical initiatives across frontend engineering, developer platforms, documentation, performance, SEO, accessibility, CI/CD, releases and production readiness. Collaborated with Product, Design, Marketing and Engineering.</p></div></div><div class="timeline-item"><div class="time">Feb 2015 — Sep 2015</div><div><h3>KODEWORK</h3><p class="role">UI Developer</p><p>Built responsive web interfaces using HTML5, CSS3, JavaScript, jQuery and Bootstrap, with WordPress and brand-development work.</p></div></div><div class="timeline-item"><div class="time">Oct 2014 — Feb 2015</div><div><h3>Datamatics Global Services Limited</h3><p class="role">Web Designer</p><p>Developed responsive, browser-compatible interfaces using HTML5, CSS3, JavaScript, jQuery and Bootstrap.</p></div></div><div class="timeline-item"><div class="time">Jan 2013 — Oct 2014</div><div><h3>Kush Infosystem Private Limited</h3><p class="role">Web Developer</p><p>Built responsive web interfaces using HTML5, CSS3, JavaScript, jQuery, Bootstrap and WordPress.</p></div></div><div class="timeline-item"><div class="time">Aug 2011 — Jan 2013</div><div><h3>Thakur Polytechnic</h3><p class="role">Lecturer</p><p>Taught Microprocessors, Digital Techniques, HTML, Multimedia &amp; Animation Techniques and Management.</p></div></div></div></div></div></section>
 
-            <i class="ion-ios-color-wand-outline"></i>
-            <span>WEB Development</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+    <section class="credentials section-grid"><div class="container credentials-grid"><div><div class="section-label">05 / Credentials</div><h2>Foundation, <span>certification &amp; craft.</span></h2></div><div class="credential-cards"><div><span>Education</span><h3>B.E. Information Technology</h3><p>RTM Nagpur University · 2008–2011</p></div><div><span>Education</span><h3>Diploma — Electrical, Electronics &amp; Communications</h3><p>MSBTE · 2005–2008</p></div><div><span>Certification</span><h3>Scrum Fundamentals Certified</h3><p>SFC</p></div><div><span>Languages</span><h3>English · Hindi · Marathi</h3><p>Professional working proficiency across primary work contexts.</p></div></div></div></section>
 
-          </div>
+    <section class="contact section-grid" id="contact"><div class="container contact-grid"><div><div class="section-label">06 / Contact</div><h2>Let's build something <span>worth shipping.</span></h2><p>Open to senior software engineering, frontend/full-stack, technical leadership and engineering ownership opportunities.</p></div><div class="contact-links"><a href="mailto:rishiraj.upadhyay@gmail.com"><span>Email</span><strong>rishiraj.upadhyay@gmail.com ↗</strong></a><a href="https://www.linkedin.com/in/irishiraj/" target="_blank" rel="noopener"><span>LinkedIn</span><strong>linkedin.com/in/irishiraj ↗</strong></a><div><span>Location</span><strong>Mumbai, Maharashtra, India</strong></div><div><span>Stack</span><strong>JavaScript · React · Next.js · Gatsby · Node.js</strong></div></div></div></section>
+  </main>
 
-          <div class="services-block">
-
-            <i class="ion-ios-analytics-outline"></i>
-            <span>Analytics</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
-          </div>
-
-        </div>
-
-    </div>
-
-  </div>
-  <!-- end section services -->
-
-
-  <!-- start section portfolio -->
-  <div id="portfolio" class="text-center paddsection">
-
-    <div class="container">
-      <div class="section-title text-center">
-        <h2>My Portfolio</h2>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-
-          <div class="portfolio-list">
-
-            <ul class="nav list-unstyled" id="portfolio-flters">
-              <li class="filter filter-active" data-filter=".all">all</li>
-              <li class="filter" data-filter=".branding">branding</li>
-              <li class="filter" data-filter=".mockups">mockups</li>
-              <li class="filter" data-filter=".uikits">ui kits</li>
-              <li class="filter" data-filter=".webdesign">web design</li>
-              <li class="filter" data-filter=".photography">photography</li>
-            </ul>
-
-          </div>
-
-          <div class="portfolio-container">
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
-              <a class="popup-img" href="images/portfolio/1.jpg">
-                <img src="images/portfolio/1.jpg" alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography">
-              <a class="popup-img" href="images/portfolio/2.jpg">
-                <img src="images/portfolio/2.jpg"  alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photographyn">
-              <a class="popup-img" href="images/portfolio/3.jpg">
-                <img src="images/portfolio/3.jpg" alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign photography">
-              <a class="popup-img" href="images/portfolio/4.jpg">
-                <img src="images/portfolio/4.jpg" alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits photography">
-              <a class="popup-img" href="images/portfolio/5.jpg">
-                <img src="images/portfolio/5.jpg" alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
-              <a class="popup-img" href="images/portfolio/6.jpg">
-                <img src="images/portfolio/6.jpg" alt="img">
-              </a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <!-- End section portfolio -->
-
-  <!-- start sectoion contact -->
-  <div id="contact" class="paddsection">
-    <div class="container">
-      <div class="contact-block1">
-        <div class="row">
-
-          <div class="col-lg-6">
-            <div class="contact-contact">
-
-              <h2 class="mb-30">GET IN TOUCH</h2>
-
-              <ul class="contact-details">
-                <li><span>23, Thakur Complex</span></li>
-                <li><span>Kandivali East, Mumbai, Maharashtra</span></li>
-                <li><span>+91 8104947390</span></li>
-                <li><span>rishiraj.upadhyay@gmail.com</span></li>
-              </ul>
-
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <form action="" method="post" role="form" class="contactForm">
-              <div class="row">
-
-                <div id="sendmessage">Your message has been sent. Thank you!</div>
-                <div id="errormessage"></div>
-
-                <div class="col-lg-6">
-                  <div class="form-group contact-block1">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-
-                <div class="col-lg-6">
-                  <div class="form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-
-                <div class="col-lg-12">
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-
-                <div class="col-lg-12">
-                  <div class="form-group">
-                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                    <div class="validation"></div>
-                  </div>
-                </div>
-
-                <div class="col-lg-12">
-                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
-                </div>
-
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- start sectoion contact -->
-
-
-  <!-- start section footer -->
-  <div id="footer" class="text-center">
-    <div class="container">
-      <div class="socials-media text-center">
-
-        <ul class="list-unstyled">
-          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="https://twitter.com/rishiraj88"><i class="ion-social-twitter"></i></a></li>
-          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="https://in.linkedin.com/in/rishiraj-upadhyay-75863a54"><i class="ion-social-linkedin"></i></a></li>
-        </ul>
-
-      </div>
-
-      <p>&copy; Copyrights Rishiraj. All rights reserved.</p>
-
-      <div class="credits">
-        Designed by <a href="#">Rishiraj</a>
-      </div>
-
-    </div>
-  </div>
-  <!-- End section footer -->
-
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/typed/typed.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
+  <footer><div class="container footer-inner"><a class="brand" href="#top"><img src="images/rishi-logo.png" alt="Rishiraj Upadhyay"></a><p>© 2026 Rishiraj Upadhyay. Built with intention.</p><a href="#top">Back to top ↑</a></div></footer>
   <script src="js/main.js"></script>
-
 </body>
-
 </html>
