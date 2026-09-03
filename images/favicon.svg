@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="96" fill="#0b1020"/><image href="rishi-logo.png" x="56" y="176" width="400" height="131" preserveAspectRatio="xMidYMid meet"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">RU — Rishiraj Upadhyay</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#20d8ff"/>
+      <stop offset="1" stop-color="#2458ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#0b1020"/>
+  <rect x="42" y="42" width="428" height="428" rx="92" fill="#0d1422" stroke="#24314a" stroke-width="8"/>
+  <path d="M118 365V147h150c73 0 117 37 117 96 0 43-24 73-61 89l76 74H264l-70-74h-5v33H118Zm71-149v70h64c37 0 58-13 58-36 0-22-21-34-58-34h-64Z" fill="#f4f6fb"/>
+  <path d="M258 147h105v151c0 53-25 82-69 82-34 0-58-13-79-42l-47-62h92l25 29c5 6 9 3 9-10V147Z" fill="url(#g)"/>
+</svg>
