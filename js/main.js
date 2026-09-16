@@ -83,6 +83,16 @@ document.querySelectorAll('.cv-download,.cv-view').forEach(link=>{const href=lin
     });
   }
 
-  function init(){applyTheme();addThemeControl();setupRevealAnimations();setupActiveNavigation();setupMicroInteractions()}
+  function setupBackToTop(){
+    const backToTop=document.querySelector('footer a[href="#top"]');
+    if(!backToTop)return;
+    backToTop.addEventListener('click',event=>{
+      event.preventDefault();
+      window.scrollTo({top:0,left:0,behavior:'smooth'});
+      if(history.replaceState)history.replaceState(null,'',window.location.pathname+window.location.search);
+    });
+  }
+
+  function init(){applyTheme();addThemeControl();setupRevealAnimations();setupActiveNavigation();setupMicroInteractions();setupBackToTop()}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
