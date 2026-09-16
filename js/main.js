@@ -7,6 +7,11 @@ window.addEventListener('scroll',()=>{const h=document.documentElement.scrollHei
 document.querySelectorAll('.cv-download,.cv-view').forEach(link=>{const href=link.getAttribute('href');if(href&&href.endsWith('.docx')){const pdfHref=href.replace(/\.docx$/i,'.pdf');link.setAttribute('href',pdfHref);if(link.hasAttribute('download')){const filename=pdfHref.split('/').pop();link.setAttribute('download',filename)}}});
 
 (function(){
+  const hoverStyles=document.createElement('link');
+  hoverStyles.rel='stylesheet';
+  hoverStyles.href='css/hover-fix.css';
+  document.head.appendChild(hoverStyles);
+
   const STORAGE_KEY='rishiraj-portfolio-theme';
   let mode=localStorage.getItem(STORAGE_KEY)==='light'?'light':'dark';
 
@@ -71,7 +76,8 @@ document.querySelectorAll('.cv-download,.cv-view').forEach(link=>{const href=lin
         const rect=card.getBoundingClientRect();
         const x=(event.clientX-rect.left)/rect.width-.5;
         const y=(event.clientY-rect.top)/rect.height-.5;
-        card.style.transform='perspective(900px) rotateX('+(-y*1.8)+'deg) rotateY('+(x*1.8)+'deg) translateY(-3px)';
+        const baseTransform='perspective(900px) rotateX('+(-y*1.8)+'deg) rotateY('+(x*1.8)+'deg) translateY(-3px)';
+        card.style.transform=baseTransform;
       });
       card.addEventListener('pointerleave',()=>{card.style.transform=''});
     });
