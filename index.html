@@ -327,7 +327,16 @@
 <script>
 (() => {
   const themeToggle = document.getElementById('theme-toggle');
+  const themeStorageKey = 'rishiraj-portfolio-theme';
+  let currentTheme = 'dark';
+  try {
+    const savedTheme = localStorage.getItem(themeStorageKey);
+    if (savedTheme === 'light' || savedTheme === 'dark') currentTheme = savedTheme;
+  } catch (error) {
+    // Keep the default dark theme if browser storage is unavailable.
+  }
   const applyTheme = theme => {
+    currentTheme = theme;
     document.documentElement.dataset.theme = theme;
     const nextTheme = theme === 'dark' ? 'light' : 'dark';
     themeToggle.setAttribute('aria-label', `Switch to ${nextTheme} theme`);
@@ -335,10 +344,15 @@
     themeToggle.textContent = theme === 'dark' ? '☼' : '☾';
     document.getElementById('site-favicon').href = theme === 'dark' ? 'images/favicon.svg' : 'images/favicon-light.svg';
   };
-  applyTheme(document.documentElement.dataset.theme || 'dark');
+  applyTheme(currentTheme);
   themeToggle.addEventListener('click', () => {
-    const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    const nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
     applyTheme(nextTheme);
+    try {
+      localStorage.setItem(themeStorageKey, nextTheme);
+    } catch (error) {
+      // The selected theme remains active for this page view.
+    }
   });
 
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
